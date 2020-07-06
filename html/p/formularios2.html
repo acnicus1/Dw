@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios 2</title>
+</head>
+<body>
+    <a href="../../index.html">inicio</a>
+    <form>
+        <fieldset>
+            <label for="">input</label>
+            <input type="submit" value="Enviar">
+            <label for="">button</label>
+            <button type="button">Enviar</button>
+        </fieldset>
+
+        <hr>
+
+        <fieldset>
+            <label for="">selecciona un animal</label>
+            <select name="animales" id="" size="0">
+                <option value="">gato</option>
+                <option value="">perro</option>
+                <option value="">pato</option>
+                <option value="">pollo</option>
+                <option value="">loro</option>
+            </select>
+            <br>
+            <label for="">seleccione un lenguaje</label>
+            <br>
+            <select name="lenguajes[]" id="" size="" multiple><!--multiple name="name[]"-->
+                
+                <optgroup label="lenguajes del lado del cliente">
+                    <option value="html">html</option>
+                    <option value="css">css</option>
+                    <option value="javaScript">javaScript</option>
+                </optgroup>
+
+                <optgroup label="lenguajes del  lado del servidor">
+                    <option value="PHP">PHP</option>
+                    <option value="ASP.NET">ASP.NET</option>
+                    <option value="MySQL">MySQL</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>ciudades</legend>
+            <label for="">busca una ciudad de tarija</label>
+            <input type="search" name="ciudades" list="ciudades">
+            <datalist id="ciudades">
+                <option value="Arce">
+                <option value="Avilés">
+                <option value="Cercado">
+                <option value="Gran Chaco">
+                <option value="Méndez">
+                <option value="O'Connor">
+            </datalist>
+        </fieldset>
+
+        <progress max="100" value="5" ><!--hidden para ocultar-->
+        </progress>
+
+        <hr>
+        
+        <fieldset>
+            <legend>contactenos</legend>
+            <input type="text" name="nombre" placeholder="nombre..." required>
+            <input type="text" name="asunto" placeholder="asunto..." required>
+            <input type="tel" name="telefono" placeholder="telefono..." required>
+            <textarea name="mensaje" id="" cols="50" rows="4"></textarea>
+            <button type="submit">Enviar</button>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

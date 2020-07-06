@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectores por atributot</title>
+    <link rel="stylesheet" href="../../stilos/pcss/5.selectorAtributo.css">
+</head>
+<body>
+    <a href="../../index.html">inicio</a>
+
+    <h1 title="Etiqueta1">para seleccionar el atributo de una etiqueta <span>"[attr]"</span></h1>
+    <h1 title="Etiqueta1 copia">para especificar el tipo de edtiqueta <span>"etiqueta[attr]"</span></h1>
+
+    <p data-parrafo="parrafo1">
+        para seleccionar el valor de un atributo de una etiqueta <span>"[attr='val']"</span>
+    </p>
+    <p data-parrafo="parrafo text">
+        para seleccionar el atributo seguido de un espacio <span>"[attr~='val ']"</span>
+    </p>
+    <p data-parrafo="parrafo-text">
+        para seleccionar el atributo seguido de un guin <span>"[attr|='val']"</span>
+    </p>
+
+    <details title="titulo">
+        <summary>para seleccionar valores de atributo que comiensen igual <span>"[attr^='val']"</span></summary>
+        <h2 title="titulo2">title=titulo1</h2>
+        <h2 title="titulo1">title=titulo2</h2>
+        <h2 title="titulo3">title=titulo3</h2>
+        <h2 title="titulo4">title=titulo4</h2>
+        <summary>para seleccionar valores de atributo que terminen igual <span>"[attr$='val']"</span></summary>
+        <h2 title="titulo5">title=titulo5: "val = 5"</h2>
+    </details>
+
+    <h3 title="asterisco">para seleccionar valores de atributos que contengan una secciondel valor <span>"[attr*='val']"</span></h3>
+</body>
+</html>

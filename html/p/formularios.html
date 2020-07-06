@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <a href="../../index.html">inicio</a>
+
+    <form method="GET" enctype="multipart/form-data">
+        <fieldset>
+            <legend>datos</legend>
+            <label for="nombre">nombre</label>
+            <input name="nombre" id="nombre" type="text" autocomplete="off">
+
+            <label for="email" >email</label>
+            <input name="email" id="email" type="email">
+
+            <label for="contraseña">contraseña</label>
+            <input name="contraseña" id="contraseña" type="password">
+
+            <input name="date" type="date">
+            <input type="hidden">
+            
+            <input type="submit" value="Enviar" disabled>
+
+            <fieldset>
+                <legend>selecciona una letra</legend>
+                <label for="">a</label>
+                <input name="L" type="radio" value="a">
+                <label for="">b</label>
+                <input name="L" type="radio" value="b">
+                <label for="">c</label>
+                <input name="L" type="radio" value="c">
+                <label for="">d</label>
+                <input name="L" type="radio" value="d">
+                <label for="">e</label>
+                <input name="L" type="radio" value="e">
+            </fieldset>
+
+            <fieldset>
+                <legend>selecciona una letra</legend>
+                <label for="">1</label>
+                <input name="N1" type="checkbox" value="1">
+                <label for="">2</label>
+                <input name="N2" type="checkbox" value="2">
+                <label for="">3</label>
+                <input name="N3" type="checkbox" value="3">
+                <label for="">4</label>
+                <input name="N4" type="checkbox" value="4">
+                <label for="">5</label>
+                <input name="N5" type="checkbox" value="5">
+            </fieldset>
+
+            <fieldset>
+                <label for="">rango</label>
+                <input type="range" min="0" max="10" value="5 ">
+                <br>
+                <label for="">buscador</label>
+                <input type="search">
+                <br>
+                <label for="">tel</label>
+                <input type="tel">
+                <br>
+                <label for="">mes</label>
+                <input type="month">
+                <br>
+                <label for="">semana</label>
+                <input type="week">
+                <br>
+                <label for="">imagen</label>
+                <input type="image">
+                <br>
+                <label for="">color</label>
+                <input name="color" type="color">
+                <br>
+                <label for="">archivo</label>
+                <input type="file" multiple>
+            </fieldset>
+            <input type="reset" value="resetear">
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>

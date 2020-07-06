@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios3</title>
+</head>
+<body>
+    <a href="../../index.html">inicio</a>
+    <form name="multiplicacion" onsubmit="return false" oninput="resultado.value = parseFloat(numero1m.value) * parseFloat(numero2m.value)">
+        <label for="">calculadora multiplicacion</label>
+        <br>
+        <input id="numero1m" type="number" step="any">
+        <input id="numero2m" type="number" step="any">
+        <output name="resultado" for="numero1m numero2m"></output>
+    </form>
+
+    <form id="form" oninput="divicion()">
+        <label for="">calculadora divicion</label>
+        <br>
+        <input id="numero1d" type="number" step="any">
+        <input id="numero2d" type="number" step="any">
+        <output id="resultado" name="resultado" for="numero1d numero2d"></output>
+    </form>
+
+    <script>
+
+        /*document.getElementById("form").addEventListener("input", divicion)
+        */
+        function divicion(){
+            var numero1 = document.getElementById('numero1d').value;
+            var numero2 = document.getElementById('numero2d').value;
+            var resultado = numero1/numero2;
+
+            document.getElementById("resultado").value = resultado;
+        }
+    </script>
+</body>
+</html>

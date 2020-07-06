@@ -1,0 +1,14 @@
+html{
+    background-color: antiquewhite;
+}
+
+span{
+    color: azure;
+    background-color: burlywood;
+}
+p{
+    background-color: rgb(39, 145, 29);
+    height: 100px;
+    width: 1000px;
+    margin:0 auto;
+}

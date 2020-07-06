@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #38e0d2;
+}
+
+.sClass{
+    color: beige;
+    background-color: #682222;
+}
+
+.sClass > p{
+    background-color: yellow;
+    color: #151647;
+    padding: 0.3%;
+    margin-left: 2%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: turquoise;
+}
+
+.sClass > h3{
+    color: blueviolet;
+    margin-left: 1%;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.sClass ~ p{
+    background-color: #c10b63;
+}
+
+
+.sClass + a{
+    font-size: 25px;
+    color: #170bbc;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: #050052;
+}

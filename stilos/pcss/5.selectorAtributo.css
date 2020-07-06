@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1[title]{
+    background-color: #22d11f;
+}
+
+h1[title="Etiqueta1 copia"]{
+    background-color: #1f46d1;
+}
+
+p[data-parrafo="parrafo1"]{
+    background-color: aquamarine;
+    size: 20px;
+    font-size: 20px;
+}
+
+p[data-parrafo~="parrafo"]{
+    background-color: #0f2970;
+    font-size: 20px;
+    color: #8aa6f5;
+}
+
+p[data-parrafo|=parrafo]{
+    background-color: #131463;
+    color: #8b8df4;
+    font-size: 20px;
+}
+
+[title^=titulo]{
+    background-color: #428cae;
+    margin-bottom: 5px;
+    color: #161818;
+    font-size: 20px;
+}
+[title$=lo5]{
+    background-color: #168d22;
+    margin-bottom: 5px;
+    color: #161818;
+    font-size: 20px;
+}
+
+h3[title*=teri]{
+    background-color: #d53c39;
+}
+
+span{
+    font-size: 25px;
+    font-family: cursive;
+}

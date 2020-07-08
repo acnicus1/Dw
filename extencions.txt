@@ -1,19 +1,20 @@
-Auto Rename Tag
-Bracket Pair Colorizer
+-Auto Rename Tag
+-Bracket Pair Colorizer
 Java Extencion Pack
 Canvas Best Practice
 Canvas-snippets
-Color Manager
-Debugger for chrome
+-Color Manager
+-Debugger for chrome
 EsLint
 Git Histori
 GitLens
-HTML snippets
-Htmltagwrap
-JavaScript code snippets
-Live Server
-peacock
-prettier
-python
-svg
+-HTML snippets
+-Htmltagwrap
+-JavaScript code snippets
+-Live Server
+-peacock
+-prettier
+-python
+-svg
 Vim
+-Color Highlight-

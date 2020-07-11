@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}  
+
+nav{
+    background-color: blueviolet;
+    position: relative;
+    height: 60px;
+}
+
+a{
+    border: none;
+    min-width: 80px;
+    height: 50px;
+    padding: 0 30px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: violet;
+    transition: .3s ease all;
+    text-align: center;
+    
+}
+
+.posicion_absolute{
+    position: absolute;
+    right: 20px;
+    bottom: 8%;
+}
+
+a:hover{
+    background-color: rgb(245, 60, 245);
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+    padding: 2.5px;
+    background-color: rgb(37, 63, 175);
+    border-radius: 30px;
+    text-align: center;
+    width: 90%;
+    min-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subT{
+    background-color: aqua;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+h4 {
+    font-size: 2.3em;
+}
+
+h5{
+    font-size: 2em;
+}
+
+h6{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.tab{
+    margin: 0;
+    padding: 0;
+    margin-left: 4ch;
+    background-color: transparent;
+}
+
+span{
+    background-color: blueviolet;
+    border-radius: 4px;
+}
+
+p{
+    text-align: center;
+}
+
+p span:first-child{
+    background-color: rgb(13, 242, 200);
+    color: black;
+}
+
+p span:last-child{
+    background-color: tomato;
+    border-radius: 2%;
+}
+
+p span:only-child{
+    border-radius: 2%;
+    background-color: crimson;
+
+}
+
+.selector{
+    margin: 0 19px;
+    margin-top: 15px;
+    border-radius: 2%;
+    background-color: wheat;
+    padding: 10px;
+}
+
+.text_ej{
+    margin-left: 5%;
+    margin-top: 20px;
+    width: auto;
+    float: left;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.ejemplo{
+    background-color: rgb(241, 199, 120);
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 70%;
+    display: inline-block;
+}
+
+.ej{
+    display: inline-block;
+    width: 70%;
+}
+
+.ej .ejemplo{
+    width: 100%;
+}

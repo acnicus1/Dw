@@ -1,12 +1,28 @@
 *{
     padding: 0;
     margin: 0;
-}  
+}
+
+body:lang(en){
+    background-color: black;
+}
 
 nav{
     background-color: blueviolet;
     position: relative;
-    height: 60px;
+    
+}
+
+nav img{
+    width: 100%;
+    max-width: 60px;
+    display: inline-block;
+}
+
+details{
+    display: inline-block;
+    background-color: rgb(89, 23, 151);
+
 }
 
 a{

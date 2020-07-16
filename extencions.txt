@@ -16,5 +16,6 @@ GitLens
 -prettier
 -python
 -svg
+svg viewer
 Vim
 -Color Highlight-

@@ -3,64 +3,400 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>nth chlid</title>
+    <link rel="stylesheet" href="../../stilos/pcss/8.PseudoClases_nth.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;0,900;1,100;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table>
-        <caption>Datos</caption>
+    <header>
+        <h1>nth_child</h1>
+        <p>ntc child es una pseudo clase que selecciona elementos de una lista</p>
+    </header>
+    <div class="nth_child" style="padding-bottom: 5em;">
+        <div class="titulo">
+            <h2>nth_child</h2>
+            <p>nth_child(val)</p>
+        </div>
+        <div class="nth_child__nthchil content">
+            
+            <div class="ej">
+                <table class="ej__table">
+                    <caption class="title" class="title" class="title">nth_child(2)</caption class="title" class="title">
+            
+                    <thead>
+                        <th>No.</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>No.Identificacion</th>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-        <thead>
-            <th>No.</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>No.Identificacion</th>
-        </thead>
+        <div class="nth_child__nthchil_2n-1 content">
+            <div class="ej">
+                <table class="ej__table">
+                    <caption class="title">nth_child(3n+1)</caption class="title" class="title">
+            
+                    <thead >
+                        <th>No.</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>No.Identificacion</th>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>nombre</td>
-                <td>apelldio</td>
-                <td>No.Identificacion</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>nombre</td>
-                <td>apelldio</td>
-                <td>No.Identificacion</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>nombre</td>
-                <td>apelldio</td>
-                <td>No.Identificacion</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>nombre</td>
-                <td>apelldio</td>
-                <td>No.Identificacion</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>nombre</td>
-                <td>apelldio</td>
-                <td>No.Identificacion</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>nombre</td>
-                <td>apelldio</td>
-                <td>No.Identificacion</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>nombre</td>
-                <td>apelldio</td>
-                <td>No.Identificacion</td>
-            </tr>
-        </tbody>
-    </table>
+        <div class="nth_child__nthchil_even content">
+            <div class="ej">
+                <table class="ej__table">
+                    <caption class="title">nth_child(even) "pares"</caption class="title" class="title" class="title">
+            
+                    <thead >
+                        <th>No.</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>No.Identificacion</th>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="nth_child__nthchil_odd content">
+            <div class="ej">
+                <table class="ej__table">
+                    <caption class="title">nth_child(odd) "in pares"</caption class="title" class="title" class="title">
+            
+                    <thead >
+                        <th>No.</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>No.Identificacion</th>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="nth_child__nthchil_last content">
+            <div class="ej">
+                <p>enpiesa a contar desde el final</p>
+                <table class="ej__table">
+                    <caption class="title" class="title">nth_last_child(3)</caption class="title" class="title">
+                    <thead >
+                        <th>No.</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>No.Identificacion</th>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        
+        <div class="nth_child__nthchil_col content" >
+            <div class="ej">
+                <div class="l">
+                    <p>se definen columnas:
+                        <pre>
+                            colgroup>
+                                col>
+                                col>
+                                col>
+                                col>
+                            /colgroup>
+                        </pre>
+                    </p>
+                </div>
+                <table class="ej__table">
+                    <caption class="title">nth_last_child(3)</caption class="title" class="title" class="title">
+
+                    <colgroup>
+                        <col>
+                        <col>
+                        <col>
+                        <col>
+                    </colgroup>
+
+                    <thead >
+                        <th>No.</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>No.Identificacion</th>
+                    </thead>
+            
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>nombre</td>
+                            <td>apelldio</td>
+                            <td>No.Identificacion</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

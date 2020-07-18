@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+header p{
+    padding: 5px;
+    font-size: large;
+}
+
+.nth_child{
+    background-color: white;
+    margin: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.content{
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 60px;
+    width: 70%;
+    min-width: 390px;
+    margin-left: auto;
+    background-color: rgb(228, 228, 228);
+    margin-right: auto;
+}
+
+.ej{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4em;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.titulo h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.titulo p{
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.l{
+    width: 80%;
+    padding-top: 2em;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: -2em;
+
+}
+
+
+
+h3{
+    padding: 5%;
+}
+.title{
+    font-size: 3em;
+    padding: 1em;
+}
+table{
+    border-collapse: collapse;
+}
+
+
+thead th{
+    border-bottom: 1px solid green;
+}
+th, td{
+    padding: 10px;
+    border-right: 1px solid green;
+    border-bottom: 1px solid green;
+}
+
+th:last-child, td:last-child{
+    border-right: none;
+}
+ tbody tr:last-child td{
+     border-bottom: none;
+ }
+
+
+ /*-------nth--------*/
+.nth_child__nthchil .ej__table tr:nth-child(2){
+     background-color: grey;
+ }
+
+ .nth_child__nthchil_2n-1 .ej__table tr:nth-child(3n+1){
+    background-color: grey;
+}
+
+.nth_child__nthchil_even .ej__table tr:nth-child(even){
+    background-color: grey;
+}
+
+.nth_child__nthchil_odd .ej__table tr:nth-child(odd){
+    background-color: grey;
+}
+
+.nth_child__nthchil_last .ej__table tr:nth-last-child(3){
+    background-color: grey;
+}
+
+.nth_child__nthchil_col colgroup col:nth-child(even){
+    background-color: grey;
+}

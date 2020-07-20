@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClases divulario</title>
+    <link rel="stylesheet" href="../../stilos/pcss/10.PseudoClases_extra.css">
+</head>
+<body>
+    <header>
+        <h1>PseudoClases </h1>
+    </header>
+
+    <main>
+        <div class="titulo">
+            <h2>Psedudo Clases para divularios</h2>
+        </div>
+
+        <div class="card">
+            <div class="form">
+                <h3>:focus</h3>
+                <label for="focus">dale click ientras este activo mostrara atributos</label>
+                <input type="text" nome="focus" placeholder="focus">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="form">
+                <h3>:disable</h3>
+                <label for="disable">minetra este input es desactivado mostrara atributos</label>
+                <input type="text" nome="disable" placeholder="disable" disabled>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="form">
+                <h3>:valid, :invalid</h3>
+                <label for="valid">mostrara atributos si lo introducido es valido o invalido</label>
+                <input type="email" nombre="valid" placeholder="valid">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="form">
+                <h3>:required</h3>
+                <label for="required">mostrara atributos si el valord es requerido</label>
+                <input type="text" name="required" placeholder="required" required>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>:chequed</h3></label>
+            <label for="chequed">clikealo
+            <input type="checkbox" nombre="chequed" class="check ek">
+            
+        </div>
+
+        <div class="card">
+            <div class="form">
+                <h3>:default</h3>
+                <div class="rad">
+                    <label for="default" class="rad_l">opcion1</label>
+                    <input type="radio" name="default" id="1" value="1" class="check rad_i">
+    
+                    <label for="default" class="rad_l">opncion2 "default"</label>
+                    <input type="radio" name="default" id="2" value="2" checked class="check rad_i">
+    
+                    <label for="default" class="rad_l">opcion3</label>
+                    <input type="radio" name="default" id="3" value="3" class="check rad_i">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="form">
+                <h3>:in-range</h3>
+                <label for="in-range"></label>
+                <input type="number" nombre="in-range" placeholder="edad" min="1" max="101">
+            </div>
+        </div>
+
+        <input type="submit">
+    </main>
+</body>
+</html>
